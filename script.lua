@@ -9,7 +9,7 @@ gui.Parent = player:WaitForChild("PlayerGui")
 
 -- Создаем основной фрейм (окно)
 local mainFrame = Instance.new("Frame")
-mainFrame.Size = UDim2.new(0, 250, 0, 300)  -- Ширина 250 пикселей, Высота 300 пикселей
+mainFrame.Size = UDim2.new(0, 700, 0, 300)  -- Ширина 250 пикселей, Высота 300 пикселей
 mainFrame.Position = UDim2.new(0, 50, 0, 50)  -- Позиция: X=50, Y=50 (левый верхний угол)
 mainFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)  -- Темно-серый фон
 mainFrame.BorderSizePixel = 0  -- Убираем границу
@@ -21,7 +21,7 @@ title.Size = UDim2.new(1, 0, 0, 40)  -- Ширина 100%, Высота 40 пи�
 title.Position = UDim2.new(0, 0, 0, 0)  -- Вверху окна
 title.BackgroundColor3 = Color3.fromRGB(30, 30, 30)  -- Темнее чем основной фон
 title.TextColor3 = Color3.fromRGB(255, 255, 255)  -- Белый текст
-title.Text = "МОЙ СКРИПТ"  -- Название в заголовке
+title.Text = "LeftWare"  -- Название в заголовке
 title.TextScaled = true  -- Автоматически подбирать размер текста
 title.Font = Enum.Font.GothamBold  -- Шрифт
 title.Parent = mainFrame
